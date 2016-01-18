@@ -25,17 +25,19 @@ of the updated webdriver is corresponding in the `protractor-e2e.js` file, if no
 change the line 12 of the file:
 `seleniumServerJar: './node_modules/protractor/selenium/selenium-server-standalone-{updated-version}.jar',`
 
-to run the tests
+#### to run the tests
 
-- open a promt/terminal
+- open a promt/terminal and execute 1, 2 and 3 steps
+
 1.- `npm i && bower i` // to install the dependencies
-
 2.- `grunt` // for building the proyect
 3.- `grunt serve` // for deploying the app
-- open another promt/terminal
+
+- open another promt/terminal and execute 4 and 5 steps
+
 4.- on `Mac` or `Linux`
-    `./node_modules/protractor/bin/protractor protractor-e2e.js`
+    - `./node_modules/protractor/bin/protractor protractor-e2e.js`
     on `windows`
-    `node node_modules/protractor/bin/protractor protractor-e2e.js`
+    - `node node_modules/protractor/bin/protractor protractor-e2e.js`
 
 5.- check the results in the terminal
