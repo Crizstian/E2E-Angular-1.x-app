@@ -1,4 +1,4 @@
-# 01-protactor
+# E2E-Angular-1.x-app
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
